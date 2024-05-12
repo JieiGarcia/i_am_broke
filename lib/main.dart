@@ -5,15 +5,14 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.deepPurple,
+        appBar: AppBar(
+          title: const Text('I am broke T_T'),
+          backgroundColor: Colors.blueGrey,
+        ),
         body: const Center(
           child: Image(
             image: AssetImage('image/coal.jpg'),
           ),
-        ),
-        appBar: AppBar(
-          title: const Center(child: Text('I am broke')),
-          backgroundColor: Colors.deepPurpleAccent,
         ),
       ),
     ),
